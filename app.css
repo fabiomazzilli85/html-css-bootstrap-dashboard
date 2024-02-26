@@ -98,6 +98,7 @@ nav {
     .fa-none {display: none;} 
     .logo {display: none;}
     .aside-hidden {display: none;}
+    .fa-block {display: block;}
 }
 
 .mr-btn-right {
