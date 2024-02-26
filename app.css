@@ -70,14 +70,13 @@ nav {
     width: 45px;
 }
 
-@media (min-width: 768px) {
-    .mobile-logo {
-        display: none;
-    }
+@media (min-width: 768px){
+    .mobile-logo {display: none;}
 }
 
+
 @media (max-width: 768px) {
-    .logo {
-      display: none;
-    }
-  }
+    .fa-none {display: none;} 
+    .logo {display: none;}
+    .aside-hidden {display: none;}
+}
