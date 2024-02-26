@@ -2,9 +2,13 @@ ul, li {
     list-style: none;
 }
 
-.page-header {
+nav {
     background-color: #F8F9FA;
     color: #5B5858;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .main-section-flex {
@@ -45,3 +49,35 @@ ul, li {
     border: 2px solid red;
     margin-left: 50px;
 }
+
+.flex-navbar {
+    display: flex;
+} 
+
+.fontawesome {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.app-alert {
+    color: #FF8F00;
+}
+
+.mobile-logo {
+    width: 45px;
+}
+
+@media (min-width: 768px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+      display: none;
+    }
+  }
