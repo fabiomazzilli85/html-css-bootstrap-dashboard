@@ -29,6 +29,11 @@ nav {
     flex-grow: 1;
     width: 700px;
     height: 100%;
+    
+}
+
+.bg-main {
+    background-color: #FF8F00;
 }
 
 .introduction {
