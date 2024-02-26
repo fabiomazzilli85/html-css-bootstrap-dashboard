@@ -28,7 +28,7 @@ nav {
     display: flex;
     flex-grow: 1;
     width: 700px;
-    height: 600px;
+    height: 100%;
 }
 
 .introduction {
