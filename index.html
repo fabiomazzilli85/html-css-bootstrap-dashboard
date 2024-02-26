@@ -59,7 +59,43 @@
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <form class="row gy-2 gx-3 align-items-center">
+                                <div class="col-auto">
+                                  <label class="visually-hidden" for="autoSizingInput">Nome</label>
+                                  <input type="text" class="form-control" id="autoSizingInput" placeholder="Qual è il tuo nome?">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="visually-hidden" for="autoSizingInput">Cognome</label>
+                                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Qual è il tuo cognome?">
+                                  </div>
+                                  <div class="col-auto">
+                                    <label class="visually-hidden" for="autoSizingInput">Nazionalità</label>
+                                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Da quale paese provieni?">
+                                  </div>
+
+                                
+                                <div class="col-auto">
+                                  <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                                  <select class="form-select" id="autoSizingSelect">
+                                    <option selected>Quale tra i seguenti linguaggi vuoi imparare?</option>
+                                    <option value="1">HTML</option>
+                                    <option value="2">CSS</option>
+                                    <option value="3">JavaScript</option>
+                                    <option value="4">Bootstrap</option>
+                                  </select>
+                                </div>
+                                <div class="col-auto">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                    <label class="form-check-label" for="autoSizingCheck">
+                                      Remember me
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-auto">
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                              </form>
                         </div>
                     </div>
                 </div>
