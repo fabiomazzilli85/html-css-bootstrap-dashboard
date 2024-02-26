@@ -1,0 +1,16 @@
+ul, li {
+    list-style: none;
+}
+
+.page-header {
+    background-color: #F8F9FA;
+    color: #5B5858;
+}
+
+.aside {
+    width: 150px;
+    height: 700px;
+    background: rgb(16,39,61);
+    background: linear-gradient(54deg, rgba(16,39,61,1) 75%, rgba(5,30,52,1) 75%);
+    color: white;
+}
