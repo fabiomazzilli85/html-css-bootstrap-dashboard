@@ -24,8 +24,9 @@ nav {
 .aside {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 175px;
-    height: 700px;
+    height: 670px;
     background: rgb(16,39,61);
     background: linear-gradient(54deg, rgba(16,39,61,1) 75%, rgba(5,30,52,1) 75%);
     color: white;
