@@ -17,6 +17,10 @@ nav {
     flex-wrap: wrap;
 }
 
+.logo {
+    width: 110px;
+}
+
 .aside {
     display: flex;
     flex-direction: column;
@@ -77,15 +81,6 @@ ul {
     gap: 30px;
 }
 
-.lorem-1 {
-    border: 2px solid violet;
-    margin-right: 50px;
-}
-
-.lorem-2 {
-    border: 2px solid red;
-    margin-left: 50px;
-}
 
 .flex-navbar {
     display: flex;
