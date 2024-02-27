@@ -142,3 +142,7 @@ ul {
 @media (max-width: 768px) {
     .introduction-text {display: none;}
 }
+
+.container {
+    max-width: 300px;
+}
