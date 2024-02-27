@@ -9,9 +9,11 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="app" class="vh-100 d-flex flex-column">
+
     <header page-header>
         <nav>
-            <img class="logo" src="img/logo.svg" alt="Logo Boolean">
+            <img class="logo d-none d-md-block" src="img/logo.svg" alt="Logo Boolean">
             <img class="mobile-logo" src="img/mobile-logo.png" alt="">
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Prova a cercare: Lezioni di Laravel">            
             <div class="fontawesome">
@@ -23,17 +25,100 @@
         </nav>
     </header>
     
-    <main class="bg-main main-section-flex">
+    <main class="bg-main d-flex">
         <div class="aside">
-            <ul class="aside-flex">
-                <li class="aside-hidden"><span class="fa-block"><i class="fa-solid fa-house"></i></span> Home</li>
-                <li class="aside-hidden"><span class="fa-block"><i class="fa-solid fa-chart-simple"></i></span> Stats</li>
-                <li class="aside-hidden"><span class="fa-block"><i class="fa-solid fa-signal"></i></span> Signals</li>
-                <li class="aside-hidden"><span class="fa-block"><i class="fa-solid fa-gear"></i></span> Admin</li>
+            <ul>
+                <li><span><i class="fa-solid fa-house"></i></span> Home</li>
+                <li><span><i class="fa-solid fa-chart-simple"></i></span> Stats</li>
+                <li><span><i class="fa-solid fa-signal"></i></span> Signals</li>
+                <li><span><i class="fa-solid fa-gear"></i></span> Admin</li>
             </ul>
         </div>
+
+        <div class="d-flex flex-grow-1">
+            <div class="introduction">
+                <div class="introduction">
+                    <div>
+                        <h1 class="name-title h3">Boolean</h1>
+                        <div class="badge-mr">
+                            <span class="badge text-bg-dark">Piano Blaze</span>
+                            <span class="badge text-bg-warning">Piano Blaze</span>
+                            <span class="badge text-bg-danger">Boolean Mobile App</span>
+                            <span class="badge text-bg-success">Boolean Web App</span>
+                        </div>
+                    </div>
+                    
+                    <div class="introduction-text">
+                        <p class="text-center fs-5">Studenti Onlie Negli Ultimi 30 Minuti</p>
+                        <p class="text-center fs-5">125</p>
+                    </div>
+                    
+                    <div class="mr-btn-right">
+                        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+ Nuovo Studente</button>
+                        
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form class="row gy-2 gx-3 align-items-center">
+                                    <div class="col-auto">
+                                        <label class="visually-hidden" for="autoSizingInput">Nome</label>
+                                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Qual è il tuo nome?">
+                                    </div>
+                                    <div class="col-auto">
+                                        <label class="visually-hidden" for="autoSizingInput">Cognome</label>
+                                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Qual è il tuo cognome?">
+                                    </div>
+                                    <div class="col-auto">
+                                        <label class="visually-hidden" for="autoSizingInput">Nazionalità</label>
+                                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Da quale paese provieni?">
+                                    </div>
+                                    
+                                    
+                                    <div class="col-auto">
+                                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                                        <select class="form-select" id="autoSizingSelect">
+                                            <option selected>Quale tra i seguenti linguaggi vuoi imparare?</option>
+                                            <option value="1">HTML</option>
+                                            <option value="2">CSS</option>
+                                            <option value="3">JavaScript</option>
+                                            <option value="4">Bootstrap</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <label class="input-group-text" for="inputGroupFile01">Carica Foto Profilo</label>
+                                        <input type="file" class="form-control" id="inputGroupFile01">
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                                        <label class="form-check-label" for="autoSizingCheck">
+                                            Ricorda l'accesso
+                                        </label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-primary">Invia</button>
+                                        <button type="button" class="btn btn-danger">Resetta tutti i dati</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+<!-- 
+
+
         
-        <div class="dashboard">
+        <div class="dashboard app__body flex-grow-1 d-flex">
             <div class="introduction">
                 <div>
                     <h2 class="name-title h1">Boolean</h2>
@@ -105,7 +190,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         
         
     </main>
