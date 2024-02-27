@@ -50,6 +50,11 @@ nav {
     .aside {
         width: 70px;
     }
+    .fontawesome {
+        text-align: center;
+        font-size: 18px;
+        color: #FF8F00;
+    }
 }
 
 ul {
