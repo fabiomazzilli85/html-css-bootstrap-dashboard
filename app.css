@@ -38,6 +38,12 @@ nav {
     width: 100%;
 }
 
+
+.page-header {
+    height: 70px;
+}
+
+
 .logo {
     width: 110px;
 }
